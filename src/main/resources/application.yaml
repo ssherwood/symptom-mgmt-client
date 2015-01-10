@@ -1,0 +1,17 @@
+#debug: true
+
+spring:
+    jpa:
+        hibernate:
+            ddl-auto: create-drop
+        show-sql: true
+
+management:
+    context_path: /admin
+
+# removed for cfpush    
+#server:
+#    port: 8443
+#    ssl:
+#        key-store: classpath:keystore.jks
+#        key-store-password: changeit
